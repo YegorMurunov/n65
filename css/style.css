@@ -476,7 +476,7 @@ body, html {
 #wrapper .section11-11 .container {
     padding-bottom: 0;
     padding-top: 0;
-    transform: translate(0, 80px);
+    transform: translate(0, 40px);
     position: relative;
     z-index: 3;
 }
@@ -488,6 +488,9 @@ body, html {
 #wrapper .section11-11 .section__content .section__img {
     width: 100%;
     height: auto;
+}
+.section13-13 .section-hero__img2 {
+    display: none;
 }
 #wrapper .section14-14 {
     padding-top: 20px;
@@ -612,6 +615,14 @@ body, html {
         padding-bottom: 20px;
     }
     #wrapper .section-hero .section-hero__img {
+        max-width: 100%;
+        width: 100%;
+    }
+    #wrapper .section13-13 .section-hero__img {
+        display: none;
+    }
+    #wrapper .section13-13 .section-hero__img2 {
+        display: block;
         max-width: 100%;
         width: 100%;
     }
